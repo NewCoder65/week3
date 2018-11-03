@@ -1,0 +1,35 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: lightblue;
+}
+ul li {
+    background-color:lightblue;
+    border: solid 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+ul li:hover{
+    background-color: lightcoral;
+}
+
+a{
+    font-family:'bangers', cursive;
+    font-variant: small-caps;
+    font-size: 1.5cm;
+    text-decoration: none;
+}
+a:hover{
+    color: hotpink;
+}
+@media only screen and (min-width: 600px) {
+    body{
+        background-color: yellow;
+
+    }
+    ul li {
+        display: inline-block;
+        width: 120px;
+    }
+}
